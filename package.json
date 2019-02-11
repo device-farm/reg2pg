@@ -1,0 +1,13 @@
+{
+  "name": "reg2pg",
+  "version": "1.0.0",
+  "description": "DEVICE.FARM registers to PostgreSQL pump",
+  "main": "reg2pg.js",
+  "dependencies": {
+    "@device.farm/appglue": "^1.0.10",
+    "@device.farm/mqtt-reg": "^1.0.16",
+    "fast-deep-equal": "^2.0.1",
+    "mqtt": "^2.18.8",
+    "pg": "^7.8.0"
+  }
+}
