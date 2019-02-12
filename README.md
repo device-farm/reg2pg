@@ -1,5 +1,5 @@
 # Raspi installation
 
 ```
-docker run --name agc-webui --restart=always -d -e APP_DIR=/opt/app/app -e APP_START="node src/start.js" -e DATA_DIR=/opt/app/data -e MQTT=10.1.0.12 -e REPOSITORY=https://github.com/burgrp/agc-webui-416 burgrp/npg-rpi
+docker run --name reg2pg --restart=always -d -e DF_LOGGER_PASSWORD=xxx -e DF_SITE_ID=xxx -e APP_START="node reg2pg.js" -e MQTT=10.1.0.12 -e REPOSITORY=https://github.com/device-farm/reg2pg burgrp/npg-rpi
 ```
