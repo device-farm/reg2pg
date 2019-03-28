@@ -1,6 +1,7 @@
 {
     "siteId": "-> $DF_SITE_ID",
     "mqtt": "-> $MQTT",
+    "intervalMs": 10000,
     "pg": {
         "user": "df-logger",
         "password": "-> $DF_LOGGER_PASSWORD",
