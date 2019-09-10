@@ -5,7 +5,7 @@
   "main": "reg2pg.js",
   "dependencies": {
     "@device.farm/appglue": "^1.0.13",
-    "@device.farm/mqtt-reg": "^1.0.17",
+    "@device.farm/mqtt-reg": "^1.0.18",
     "fast-deep-equal": "^2.0.1",
     "mqtt": "^2.18.8",
     "pg": "^7.12.1"
