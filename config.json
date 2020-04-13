@@ -7,6 +7,6 @@
         "password": "-> $DF_LOGGER_PASSWORD",
         "host": "docker.drake.cz",
         "database": "df",
-        "port": 5432
+        "port": 5433
     }
 }
