@@ -1,12 +1,12 @@
 {
-    "siteId": "-> $DF_SITE_ID",
+    "siteId": "-> $SITE_ID",
     "mqtt": "-> $MQTT",
     "intervalMs": 10000,
     "pg": {
-        "user": "df-logger",
-        "password": "-> $DF_LOGGER_PASSWORD",
-        "host": "docker.drake.cz",
-        "database": "df",
-        "port": 5433
+        "user": "-> $PG_USER",
+        "password": "-> $PG_PASSWORD",
+        "host": "-> $PG_HOST",
+        "database": "-> $PG_DATABASE",
+        "port": "-> $PG_PORT"
     }
 }
